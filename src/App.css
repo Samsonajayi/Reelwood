@@ -1809,7 +1809,9 @@ display: flex;
     box-sizing: border-box;
     
   }
- 
+  body{
+    background-color: var(--bg);
+  }
 
   .cardpayment .successful,
   .cardpayment .pcard {
