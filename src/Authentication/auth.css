@@ -1,0 +1,288 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.auth{
+    width: 100%;
+    margin: auto;
+}
+
+.authform{
+    display: none;
+}
+
+.auth .login-form{
+    width: 36%;
+    margin:100px auto;
+    background-color: var(--bg);
+    box-shadow: 0px 0px 10px var(--accent);
+}
+
+.auth form h2{
+    width: 100%;
+    background-color: var(--border);
+    color: var(--social-bg);
+    height: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth form div p input{
+    background-color: var(--accent-light);
+    color: var(--accent-border);
+    width: 85%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0px 0px;
+    font-size: 20px;
+}
+
+.auth form div p button{
+    background-color: var(--social-bg);
+    cursor: pointer;
+    color: var(--bg);
+    width: 85%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0px 0px;
+
+}
+
+.auth form .or{
+    display: flex;
+    width: 100%;
+    color: var(--accent);
+    margin: 30px 0px;
+    
+}
+.auth form .ormain{
+    border: solid 1px var(--accent);
+    border-radius: 20px;
+    width: 15%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+.auth form hr{
+    width: 100%;
+    height: 3px;
+    background-color: var(--accent-light);
+    border: none;
+    margin-top: 15px;
+}
+
+.google P{
+    width: 85%;
+    margin: auto;
+    background-color: var(--accent-light);
+    color: var(--accent-border);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.facebook p{
+    width: 85%;
+    margin: auto;
+    color: var(--accent-border);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.facebook p img, .google p img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.login p{
+    width: 85%;
+    color: var(--accent-border);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 40px auto;
+}
+
+
+.login p span{
+    color: var(--social-bg);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.forgotpass {
+    width: 92%;
+    color: var(--accent-border);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+/*forgot-password*/
+
+.forgot-password{
+    width: 36%;
+    margin:auto;
+    background-color: var(--bg);
+    box-shadow: 0px 0px 10px var(--accent);
+    
+}
+
+.hideforgot-password{
+    display: none;
+}
+
+.forgot-password h2{
+    width: 100%;
+    color: var(--social-bg);
+    height: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgot-password p{
+    width: 85%;
+    margin: auto;
+    color: var(--accent-border);
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.forgot-password input{
+    width: 85%;
+    margin: auto;
+    background-color: var(--accent-light);
+    color: var(--accent-border);
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.forgot-password .forgot-password-form button{
+    background-color: var(--social-bg);
+    cursor: pointer;
+    color: var(--bg);
+    width: 88%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.forgot-password .forgot-password-form{
+    margin:auto;
+}
+
+.forgot-password .forgot-password-link{
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.forgot-password .forgot-password-link span{
+    color: var(--social-bg);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+    display: flex; 
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width: 950px) {
+    .auth {
+        padding: 24px 12px;
+        box-sizing: border-box;
+    }
+
+    .auth .login-form,
+    .forgot-password {
+        width: 90%;
+        margin: 24px auto;
+        box-sizing: border-box;
+    }
+
+    .auth form h2,
+    .forgot-password h2 {
+        height: 72px;
+        font-size: 22px;
+    }
+
+    .auth form div p input,
+    .auth form div p button,
+    .google p,
+    .facebook p,
+    .login p,
+    .forgot-password p,
+    .forgot-password input,
+    .forgot-password .forgot-password-form button {
+        width: 90%;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    .auth form div p input,
+    .auth form div p button,
+    .forgot-password input,
+    .forgot-password .forgot-password-form button {
+        min-height: 46px;
+    }
+
+    .auth form .or {
+        margin: 20px 0;
+    }
+
+    .auth form .ormain {
+        width: 20%;
+    }
+
+    .forgotpass {
+        font-size: 14px;
+    }
+
+    .forgot-password-description {
+        line-height: 1.5;
+    }
+}
+
+
+@media screen and (min-width: 951px) and (max-width: 1350px) {
+
+
+    .auth .login-form,
+    .forgot-password {
+        width: 60%;
+       
+    }
+
+}
